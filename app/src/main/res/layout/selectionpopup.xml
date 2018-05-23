@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="100dp"
+        android:background="@color/mainColor"
+        android:text="Level/Class"
+        android:textColor="@color/textColor"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/selection_popup_level_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="100dp"
+        android:background="@color/ash"
+        android:entries="@array/level" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="100dp"
+        android:background="@color/mainColor"
+        android:text="Department"
+        android:textColor="@color/textColor"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/selection_popup_dept_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="100dp"
+        android:background="@color/ash"
+        android:entries="@array/Department_for_undergrad" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="100dp"
+        android:background="@color/mainColor"
+        android:text="Subject"
+        android:textColor="@color/textColor"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/selection_popup_sub_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="100dp"
+        android:background="@color/ash"
+        android:entries="@array/Department_for_undergrad" />
+
+</LinearLayout>

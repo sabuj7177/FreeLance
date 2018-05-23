@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Freelancer</string>
+    <string name="title_activity_home">Map</string>
+
+    <string-array name="level">
+        <item>Level 1-5</item>
+        <item>Level 6-8</item>
+        <item>SSC</item>
+        <item>HSC</item>
+        <item>UnderGrad</item>
+    </string-array>
+
+    <string-array name="Department_for_under_HSC">
+        <item>Science </item>
+        <item>Commerce</item>
+        <item>Arts</item>
+        <item>Madrasa</item>
+    </string-array>
+
+    <string-array name="Department_for_undergrad">
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>ME</item>
+        <item>BBA</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Law</item>
+    </string-array>
+
+</resources>
